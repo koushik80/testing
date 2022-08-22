@@ -63,12 +63,23 @@ test('Admin should be usernames', () => {
   expect(usernames).toContain('admin');
 });
 
-// Working with async data
+// Working with async data:
 
-test('User fetched name should be Leanne Graham', () => {
+//Promise
+
+//test('User fetched name should be Leanne Graham', () => {
+  //expect.assertions(1);
+  //return functions.fetchUser()
+    //.then(data => {
+      //expect(data.name).toEqual('Leanne Graham');
+    //});
+//});
+
+// Async Await
+
+test('User fetched name should be Leanne Graham', async() => {
   expect.assertions(1);
-  return functions.fetchUser()
-    .then(data => {
-      expect(data.name).toEqual('Leanne Graham');
-    });
+  const data = await functions.fetchUser();
+  expect(data.name).toEqual('Leanne Graham');
+
 });
