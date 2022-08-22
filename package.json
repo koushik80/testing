@@ -9,7 +9,7 @@
   "directories": {
     "test": "tests"
   },
-  "author": "Koushik",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.1.3"
