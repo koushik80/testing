@@ -50,3 +50,9 @@ test('should be under 2000 or equal', () => {
 
 });
 
+// regex
+
+test('There is no R in Koushik', () => {
+  expect('Koushik').not.toMatch(/R/);
+});
+
