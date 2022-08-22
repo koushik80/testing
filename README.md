@@ -9,7 +9,7 @@
 
 <p align="left">References: </p>
 <ul>
-<li align="left"><a href="https://www.youtube.com/watch?v=7r4xVDI2vho" target="_blank">Unit Testing in JavaScript</a></li>
+<li align="left"><a href="https://www.youtube.com/watch?v=7r4xVDI2vho" target="_blank">Unit Testing in JavaScript: Traversy Media</a></li>
 <li><a href="" target="_blank"></a>Taitotalo Lecture</li>
 <li align="left"><a href="https://devhints.io/expectjs" target="_blank">expect.js cheatsheet</a></li>
 <li align="left"><a href="https://jestjs.io/" target="_blank">JEST</a></li>
