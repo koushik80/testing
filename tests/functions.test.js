@@ -56,3 +56,9 @@ test('There is no R in Koushik', () => {
   expect('Koushik').not.toMatch(/R/);
 });
 
+// Arrays
+
+test('Admin should be usernames', () => {
+  usernames = ['koushik', 'dey', 'admin'];
+  expect(usernames).toContain('admin');
+});
