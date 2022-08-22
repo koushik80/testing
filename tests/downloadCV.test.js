@@ -5,7 +5,11 @@ describe('download CV', () => {
         expect(() => {
             downloadCV();
         }).toThrow();
+    });
 
+    test('CV:n the content should appear....', () => {
+        const results = downloadCV('http://localhost:3000/cv/1');
+        expect(results).toBe('Content');
     });
 });
 

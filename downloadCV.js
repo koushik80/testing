@@ -6,3 +6,4 @@ function downloadCV(path) {
 }
 
 module.exports = { downloadCV };
+
