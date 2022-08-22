@@ -17,6 +17,10 @@ describe('Algebra testing', () => {
         expect(div(1, 1)).toBe(1);
     })
 
+    test('Adds 2 + 2 to NOT equal 5', () => {
+        expect(sum(2, 2)).not.toBe(5);
+    })
+
     test('Test floating point numbers', () => {
         const results = sum(4.2, 3.2);
         expect(results).toBeGreaterThan(7.0);
