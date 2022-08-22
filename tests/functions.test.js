@@ -8,6 +8,29 @@ const functions = require('../functions');
 // toBeFalsy matches anything that an if statement treats as false
 
 // toBeNull
+
 test('Should be null', () => {
   expect(functions.isNull()).toBeNull();
 });
+
+// toBeFalsy
+
+test('Should be falsy', () => {
+  expect(functions.checkValue(null)).toBeFalsy();
+});
+
+//toBeTruthy
+
+test('Should be truthy', () => {
+  expect(functions.checkValue(2)).toBeTruthy();
+});
+
+//toEqual
+
+test('User should be Koushik Dey object', () => {
+  expect(functions.createUser()).toEqual({
+    firstName: 'Koushik',
+    lastName: 'Dey'
+  });
+});
+
