@@ -34,3 +34,19 @@ test('User should be Koushik Dey object', () => {
   });
 });
 
+// less than, greater than or equal
+
+test('should be under 2000', () => {
+  const load1 = 500;
+  const load2 = 900;
+  expect(load1 + load2).toBeLessThan(2000);
+
+});
+
+test('should be under 2000 or equal', () => {
+  const load1 = 1100;
+  const load2 = 900;
+  expect(load1 + load2).toBeLessThanOrEqual(2000);
+
+});
+
